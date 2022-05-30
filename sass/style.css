@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Colors */
+/* Layout */
+/* Typography */
+/*
+### Font
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+
+*/
+.cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  height: 500px;
+  margin: 170px 0 0 260px;
+}
+
+.cars .carsChoice {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cars .carsChoice img {
+  height: auto;
+  width: 60px;
+  margin: 50px 0 35px 50px;
+}
+
+.cars .carsChoice h2 {
+  font-size: 40px;
+  margin: 0 50px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin: 0 0 30px 50px;
+}
+
+.cars .carsChoice p {
+  margin: 0 50px 83px 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+}
+
+.cars .carsChoice button {
+  border: 2px white solid;
+  border-radius: 50px;
+  width: 145px;
+  height: 48px;
+  margin: 0 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cars #sedans {
+  background-color: #e38826;
+  border-radius: 10px 0 0 10px;
+}
+
+.cars #sedans button {
+  background-color: #f2f2f2;
+  color: #e38826;
+}
+
+.cars #sedans button:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+.cars #suvs {
+  background-color: #006970;
+}
+
+.cars #suvs button {
+  background-color: #f2f2f2;
+  color: #006970;
+}
+
+.cars #suvs button:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+.cars #luxury {
+  background-color: #004241;
+  border-radius: 0 10px 10px 0;
+}
+
+.cars #luxury button {
+  background-color: #f2f2f2;
+  color: #004241;
+}
+
+.cars #luxury button:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 375px) {
+  .cars {
+    margin: 50px 5% 0 5%;
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cars .carsChoice {
+    width: 100%;
+  }
+  .cars .carsChoice p {
+    margin: 0 50px 30px 50px;
+  }
+  .cars .carsChoice button {
+    margin: 0 50px 50px 50px;
+  }
+  .cars #sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  .cars #luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
